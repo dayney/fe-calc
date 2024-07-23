@@ -1,11 +1,18 @@
 {
-  "files": [],
-  "references": [
-    {
-      "path": "./tsconfig.app.json"
-    },
-    {
-      "path": "./tsconfig.node.json"
-    }
-  ]
+  "compilerOptions": {
+    "rootDir": "src",
+    "allowJs": true, // 允许使用js
+    "outDir": "./",
+    "target": "ES5",
+    "module": "ES6",
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    // "suppressImplicitAnyIndexErrors": true, // 允许[]获取对象属性
+    "sourceMap": true,
+    "baseUrl": ".",
+    "declaration": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "lib", "build", "dist", "public"]
 }
