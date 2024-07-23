@@ -2,8 +2,8 @@
   "name": "fe-calc",
   "version": "0.0.1",
   "description": "计算工具库",
-  "main": "dist/tool.umd.js",
-  "module": "dist/tool.es.js",
+  "main": "dist/calc.umd.js",
+  "module": "dist/calc.es.js",
   "files": [
     "dist/*"
   ],
@@ -11,12 +11,19 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "test": "vitest",
     "coverage": "vitest run --coverage",
     "build": "vite build",
     "preview": "vite preview",
-    "cmdExample": "npm --prefix ./example run build"
+    "clear": "rimraf package-lock.json && rimraf node_modules",
+    "test": "vitest --ui --coverage",
+    "devExample": "npm --prefix ./example run dev",
+    "buildExample": "npm --prefix ./example run build"
   },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "calc"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dayney/fe-calc.git"
@@ -29,6 +36,9 @@
   "homepage": "https://github.com/dayney/fe-calc#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "^19.2.2",
+    "@types/decimal.js": "^7.4.0",
+    "@vitest/coverage-v8": "^2.0.4",
+    "@vitest/ui": "^2.0.4",
     "commitizen": "^4.3.0",
     "commitlint": "^19.3.0",
     "cz-git": "^1.9.4",
