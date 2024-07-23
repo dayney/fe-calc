@@ -4,6 +4,8 @@
   "description": "计算工具库",
   "main": "dist/calc.umd.js",
   "module": "dist/calc.es.js",
+  "browser": "dist/calc.umd.js",
+  "unpkg": "dist/calc.umd.js",
   "files": [
     "dist/*"
   ],
