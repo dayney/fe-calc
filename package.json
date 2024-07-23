@@ -7,9 +7,12 @@
   "files": [
     "dist/*"
   ],
+  "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
     "build": "vite build",
     "preview": "vite preview",
     "cmdExample": "npm --prefix ./example run build"
@@ -31,6 +34,8 @@
     "cz-git": "^1.9.4",
     "typescript": "^5.2.2",
     "vite": "^5.3.4",
+    "vite-plugin-dts": "^4.0.0-beta.1",
+    "vitest": "^2.0.4",
     "webpack-cli": "^5.1.4"
   },
   "config": {

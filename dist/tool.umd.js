@@ -1,0 +1,1 @@
+(function(e,t){typeof exports=="object"&&typeof module!="undefined"?t(exports):typeof define=="function"&&define.amd?define(["exports"],t):(e=typeof globalThis!="undefined"?globalThis:e||self,t(e.tool={}))})(this,function(e){"use strict";function t(n,o){return n+o}e.stSum=t,Object.defineProperty(e,Symbol.toStringTag,{value:"Module"})});
