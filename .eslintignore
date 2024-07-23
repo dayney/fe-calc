@@ -1,0 +1,18 @@
+# .eslintignore
+
+node_modules
+dev
+test
+dist
+public
+.browserslistrc
+.editorconfig
+.env.*
+.eslintignore
+.gitignore
+.prettierignore
+.vscode
+tsconfig.json
+package.json
+package-lock.json
+

@@ -1,0 +1,41 @@
+{
+  "name": "fe-calc",
+  "version": "0.0.1",
+  "description": "计算工具库",
+  "main": "dist/strayer-tool.umd.js",
+  "module": "dist/strayer-tool.es.js",
+  "files": [
+    "dist/*"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "cmdExample": "npm --prefix ./example run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dayney/fe-calc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dayney/fe-calc/issues"
+  },
+  "homepage": "https://github.com/dayney/fe-calc#readme",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^19.2.2",
+    "commitizen": "^4.3.0",
+    "commitlint": "^19.3.0",
+    "cz-git": "^1.9.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "webpack-cli": "^5.1.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  }
+}
