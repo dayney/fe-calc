@@ -2,8 +2,8 @@
   "name": "fe-calc",
   "version": "0.0.1",
   "description": "计算工具库",
-  "main": "dist/strayer-tool.umd.js",
-  "module": "dist/strayer-tool.es.js",
+  "main": "dist/tool.umd.js",
+  "module": "dist/tool.es.js",
   "files": [
     "dist/*"
   ],
