@@ -1,6 +1,6 @@
 {
   "name": "fe-calc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "计算工具库",
   "main": "dist/calc.umd.js",
   "module": "dist/calc.es.js",
@@ -16,6 +16,7 @@
     "coverage": "vitest run --coverage",
     "build": "vite build",
     "preview": "vite preview",
+    "release": "standard-version",
     "clear": "rimraf package-lock.json && rimraf node_modules",
     "test": "vitest --ui --coverage",
     "devExample": "npm --prefix ./example run dev",
@@ -44,15 +45,25 @@
     "commitizen": "^4.3.0",
     "commitlint": "^19.3.0",
     "cz-git": "^1.9.4",
+    "husky": "^9.1.4",
+    "install": "^0.13.0",
+    "standard-version": "^9.5.0",
     "typescript": "^5.2.2",
     "vite": "^5.3.4",
     "vite-plugin-dts": "^4.0.0-beta.1",
     "vitest": "^2.0.4",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "yorkie": "^2.0.0"
   },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-git"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
     }
   }
 }
