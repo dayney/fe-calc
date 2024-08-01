@@ -2,14 +2,14 @@
  * @Author: krui krui0728@gmail.com
  * @Date: 2024-07-23 14:02:56
  * @LastEditors: krui krui0728@gmail.com
- * @LastEditTime: 2024-08-01 20:19:14
+ * @LastEditTime: 2024-08-01 20:26:24
  * @FilePath: /fe-calc/commitlint.config.cjs
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 /** @type {import('cz-git').UserConfig} */
 // eslint-disable-next-line no-undef
 module.exports = {
-  // extends: ['@commitlint/config-conventional'],
+  extends: ['@commitlint/config-conventional'],
   rules: {
     // @see: https://commitlint.js.org/#/reference-rules
     // 'header-max-length': [0, 'always', 72],
