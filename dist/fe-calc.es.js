@@ -1051,4 +1051,4 @@ const Ei = {
 export {
   Ei as default
 };
-//# sourceMappingURL=calc.es.js.map
+//# sourceMappingURL=fe-calc.es.js.map

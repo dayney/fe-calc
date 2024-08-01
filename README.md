@@ -17,6 +17,6 @@
 
 [ ] 3. 项目所用到的 `vscode`插件未全部添加的本项目`.vscode/extensions.json`
 
-[ ] 4. `husky`未配置
+[ ] 4. `husky`未配置，使用最新的版本有问题
 
 [ ] 5. 所有使用到的 vscode插件，需要验证是否生效
