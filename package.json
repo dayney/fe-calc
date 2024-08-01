@@ -30,14 +30,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dayney/fe-calc.git"
+    "url": "git+https://git.int.ybm100.com/zhangbingtao/fe-calc.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dayney/fe-calc/issues"
+    "url": "https://git.int.ybm100.com/zhangbingtao/fe-calc.git/issues"
   },
-  "homepage": "https://github.com/dayney/fe-calc#readme",
+  "homepage": "https://git.int.ybm100.com/zhangbingtao/fe-calc.git#readme",
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
